@@ -1,0 +1,42 @@
+:root {
+    --black-color: #0D0D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--black-color);
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.nav-menu {
+    z-index: 999;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.nav-tabs {
+    background-color: var(--black-color);
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-menu {
+    left: -327px;
+    transition: left 0.3s ease;
+    /* Smooth transition effect */
+}
+
+/* Class to show the menu (move it to the left: 0) */
+.nav-menu.open {
+    left: 0;
+}
